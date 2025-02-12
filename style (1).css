@@ -1,0 +1,256 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+
+/* Landing Section */
+header {
+    background-image: url('https://via.placeholder.com/1200x500');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .header-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Category Filters */
+#category-filters {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#category-filters button {
+    font-size: 18px;
+    margin: 10px;
+    padding: 12px 25px;
+}
+
+/* Celebrity Profiles Section */
+#celebrity-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#celebrity-section h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.celebrity-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.celebrity-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.celebrity-card:hover {
+    transform: scale(1.05);
+}
+
+.celebrity-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.celebrity-card h3 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.celebrity-card p {
+    font-size: 16px;
+    color: #777;
+}
+
+.price-tag {
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.meet-btn {
+    margin-top: 20px;
+}
+
+/* Meet Form */
+#meet-form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#meet-form-container .meet-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+#meet-form-container .meet-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#meet-form-container .close-btn {
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Testimonials Section */
+#testimonials-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.testimonial-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Contact Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}.contact {
+    text-align: center;
+    padding: 40px;
+    background: #222;
+    color: #fff;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+}
+
+.contact button {
+    margin-top: 15px;
+    background: #ff0066;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
